@@ -1,0 +1,364 @@
+   body {
+       margin: 0;
+       padding: 0;
+       font-family: 'Playfair Display', serif;
+       background-color: #F5F0E8;
+       font-style: italic;
+   }
+
+   header {
+       display: flex;
+       justify-content: space-between;
+       background-color: #EFEAD8;
+       position: fixed;
+       top: 0; 
+       width: 100%;
+   }
+
+   .rustColor {
+       color: #C4622D;
+
+   }
+ 
+   .navSection {
+       margin-top: 20px;
+       margin-right: 8rem;
+   }
+
+   .navSection a {
+       padding: 20px;
+       text-decoration: none;
+       color: black;
+   }
+
+   .name {
+       margin-left: 5rem;
+   }
+
+   .about {
+       text-align: center;
+       margin: 270px 0 270px 0;
+       font-size: large;
+
+   }
+
+   #about {
+       scroll-margin-top: 100px;
+   }
+
+   .about p {
+       margin-top: 8vh;
+
+   }
+
+   .aboutMe h3 {
+       margin: 60px 0 0 5rem;
+       font-size: 25px;
+
+   }
+
+   .aboutMe h2 {
+       margin: 40px 0 0 5rem;
+
+       font-size: 2rem;
+   }
+
+   .description {
+       margin: 20px 0 5rem 5rem;
+       font-size: large;
+       margin-top: 20px;
+   }
+
+   .description p {
+       margin-top: 50px;
+       font-size: 20px;
+   }
+
+   .education h3 {
+       margin: 3rem 0 0 5rem;
+       font-size: 25px;
+   }
+
+   #education {
+       scroll-margin-top: 100px;
+   }
+
+   .masters {
+       margin: 3rem 7rem 0 5rem;
+       background-color: white;
+       padding: 10px 5rem 10px 40px;
+       border-radius: 10px;
+       border-left: solid 8px #C4622D;
+   }
+
+   .bachelors {
+       margin: 3rem 7rem 0 5rem;
+       background-color: white;
+       padding: 10px 10px 10px 40px;
+       border-radius: 10px;
+       border-left: solid 8px #C4622D;
+   }
+
+   .highSchool {
+       margin: 3rem 7rem 3rem 5rem;
+       background-color: white;
+       padding: 10px 10rem 10px 40px;
+       border-radius: 10px;
+       border-left: solid 8px #C4622D;
+   }
+
+   .skills h3 {
+       margin: 3rem 0 0 5rem;
+       font-size: 25px;
+   }
+
+   .frontend h2 {
+       margin: 3rem 0 0 5rem;
+       background-color: #C4622D;
+       color: white;
+       padding: 2rem;
+
+       border-radius: 10px 0 0 10px;
+   }
+
+   #skills {
+       scroll-margin-top: 100px;
+   }
+   
+   .frontend {
+       display: flex;
+
+   }
+
+   .frontendSkills {
+       display: flex;
+       background-color: white;
+       margin-top: 3rem;
+       padding-right: 95vh;
+       padding-left: 15vh;
+       border-radius: 0 10px 10px 0;
+       padding-right: 33rem;
+   }
+
+   .frontendSkills h4 {
+       padding: 30px;
+
+   }
+
+   .frontendSkills h4:hover {
+       cursor: pointer;
+       color: #d66021;
+   }
+
+   .programming h2 {
+       margin: 5rem 0 0 5rem;
+       background-color: #C4622D;
+       color: white;
+       padding: 2rem;
+
+       border-radius: 10px 0 0 10px;
+   }
+
+   .programming {
+       display: flex;
+   }
+
+   .Languages {
+       display: flex;
+       background-color: white;
+       margin-top: 80px;
+       padding-right: 95vh;
+       padding-left: 15vh;
+       border-radius: 0 10px 10px 0;
+       padding-right: 101vh;
+   }
+
+   .Languages h4 {
+       padding: 30px;
+
+   }
+
+   #contact {
+       scroll-margin-top: 100px;
+   }
+
+   .Languages h4:hover {
+       cursor: pointer;
+       color: #d66021;
+   }
+
+
+   .Database h2 {
+       margin: 5rem 0 0 5rem;
+       background-color: #C4622D;
+       color: white;
+       padding: 2rem;
+
+       border-radius: 10px 0 0 10px;
+   }
+
+   .Database {
+       display: flex;
+   }
+
+   .DatabaseSkills {
+       display: flex;
+       background-color: white;
+       margin-top: 80px;
+       padding-right: 300px;
+       padding-left: 100px;
+       border-radius: 0 10px 10px 0;
+       padding-right: 39rem;
+   }
+
+   .DatabaseSkills h4 {
+       padding: 30px;
+
+   }
+
+   .DatabaseSkills h4:hover {
+       cursor: pointer;
+       color: #d66021;
+   }
+
+
+   .Tools h2 {
+       margin: 5rem 0 0 5rem;
+       background-color: #C4622D;
+       color: white;
+       padding: 2rem;
+
+       border-radius: 10px 0 0 10px;
+   }
+
+   .Tools {
+       display: flex;
+       margin-bottom: 30px;
+   }
+
+   .toolsIUse {
+       display: flex;
+       background-color: white;
+       margin-top: 80px;
+       padding-right: 95vh;
+       padding-left: 15vh;
+       border-radius: 0 10px 10px 0;
+       padding-right: 34rem;
+   }
+
+   .toolsIUse h4 {
+       padding: 30px;
+
+   }
+
+   .toolsIUse h4:hover {
+       cursor: pointer;
+       color: #d66021;
+   }
+
+   .contact {
+       margin: 3rem 0 0 5rem;
+       font-size: 25px;
+   }
+
+   .mail {
+       padding: 20px 0 40px 12vh;
+       margin: 7vh 8rem 0 5rem;
+       background-color: white;
+       border-radius: 10px;
+       border-left: solid 10px #C4622D;
+   }
+
+   .linkedin {
+       padding: 20px 0 40px 6rem;
+       margin: 5rem 8rem 0 5rem;
+       background-color: white;
+       border-radius: 10px;
+       border-left: solid 10px #C4622D;
+   }
+
+   .Mobile {
+       padding: 20px 0 40px 6rem;
+       margin: 5rem 8rem 0 5rem;
+       background-color: white;
+       border-radius: 10px;
+       border-left: solid 10px #C4622D;
+       margin-bottom: 30px;
+   }
+
+   .end {
+       text-align: center;
+       color: rgb(200, 199, 199);
+       background-color: rgb(51, 50, 50);
+       padding: 50px 0 100px 0;
+   }
+
+   .end p {
+       font-size: 13px;
+   }
+
+    @media(max-width:768px){
+    
+    .name {
+        margin-left: 1rem;
+    }
+    
+    .navSection {
+        margin-right: 1rem;
+    }
+
+    
+    .aboutMe h3,
+    .aboutMe h2,
+    .description,
+    .education h3,
+    .masters,
+    .bachelors,
+    .highSchool,
+    .skills h3,
+    .frontend h2,
+    .programming h2,
+    .Database h2,
+    .Tools h2,
+    .contact,
+    .mail,
+    .linkedin,
+    .Mobile {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .masters,
+    .bachelors,
+    .highSchool {
+        padding: 10px 1rem 10px 20px;
+    }
+    
+    .frontendSkills,
+    .Languages,
+    .DatabaseSkills,
+    .toolsIUse {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-right: 10px;
+    }
+  .frontendHeading,
+  .programmingHeading,
+  .databaseHeading,
+  .toolsHeading {
+    margin-right: -15px;
+    margin-left: 0px;
+  }
+  .Languages{
+    padding-right: 14rem ;
+  }
+  .DatabaseSkills{
+    padding-right: 6rem ;
+  }
+  .toolsIUse{
+    padding-right: 2rem;
+  }
+  .about{
+    margin: 200px 0;
+  }
+   } 
